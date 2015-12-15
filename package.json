@@ -1,17 +1,26 @@
 {
   "name": "doubanzufang",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cheerio": "^0.17.0",
+    "ejs": "^2.3.4",
     "express": "^4.9.5",
     "lodash": "^3.10.1",
     "superagent": "^0.20.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoshude/seoanalyze.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoshude/seoanalyze/issues"
+  },
+  "homepage": "https://github.com/xiaoshude/seoanalyze"
 }
