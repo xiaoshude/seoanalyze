@@ -1,0 +1,12 @@
+{
+  "name": "doubanzufang",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "xiaoshude <fzyde123@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

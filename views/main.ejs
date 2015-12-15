@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>seo页面分析</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-theme.css"/>
+</head>
+<body style="text-align: center">
+<div class="container">
+    <table class="table table-bordered" style="margin: 0 auto">
+        <thead>
+        <tr>
+            <td>按钮</td>
+            <td>内容</td>
+            <td>相关信息</td>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(var i = 0; i < btn_list.length; i++){%>
+        <tr>
+            <td><%= btn_list[i].id%></td>
+            <td><%= btn_list[i].content%></td>
+            <td><%= btn_list[i].fatherCon%></td>
+        </tr>
+        <% }%>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

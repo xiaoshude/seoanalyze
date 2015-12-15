@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>seo页面分析</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-theme.css"/>
+</head>
+<body style="text-align: center">
+<div class="container">
+    <div class="panel-body">
+        请选择：
+        <% for(var i = 0; i < btn_list.length; i++){%>
+        <a class="btn btn-info" href="<%= btn_list[i].url%>"><%= btn_list[i].title%>页面</a>
+        <% }%>
+    </div>
+</div>
+</body>
+</html>
