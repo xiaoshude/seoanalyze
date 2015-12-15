@@ -3,3 +3,4 @@
 test.*
 index.js
 views/main.bk.ejs
+.idea
